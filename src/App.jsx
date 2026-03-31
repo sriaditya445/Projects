@@ -18,7 +18,7 @@ const Admin = lazy(() => import('./pages/Admin'));
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Projects/">
       <div className="flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow pt-16">
